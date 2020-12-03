@@ -10,12 +10,67 @@
  	color:white;
  	padding:20px;
 
+
+
+
  }
 
 
- iframe {
- 	height:1000px;
- 	width:1200px;
- 	border:none;
+  #Topper{
+ 	background-color: black;
+ 	color: green;
+ 	padding:20px;
+ 	height: 150px;
+    width: 100%;
+    background-image: 
+       url("./FBoprisko18.jpg")
+    background-repeat: no-repeat, no-repeat;
  }
 
+
+
+
+
+#header{
+{
+/* Background pattern from Toptal Subtle Patterns */
+   height: 400px;
+   width: 100%;
+   background-image: 
+       url("FBoprisko18.jpg")
+   background-repeat: no-repeat, no-repeat;
+   color: green;
+}
+
+
+
+
+button {
+        display: inline-block;
+        background-color: red;
+        border-radius: 10px;
+        border: 4px double #cccccc;
+        color: white;
+        text-align: center;
+        font-size: 12px;
+        padding: 10px;
+        width: 150px;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+      }
+
+button:hover {
+  background-color: green;
+}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
